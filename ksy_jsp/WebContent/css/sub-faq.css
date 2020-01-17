@@ -1,0 +1,37 @@
+@charset:"utf-8";
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body        {font-family:Nanum Barun Gothic; background:#6dacb8;}
+
+
+#access dt {width:100%; height:0; font-size:0; line-height:0; }
+#access a {display:block; position:absolute; top:-10000px; left:0; height:0;}
+
+
+
+
+
+ /* sub-notice */
+.notice {width:1200px; background:#fff; margin:0 auto; overflow:hidden;}
+.notice .sub-notice {display:inline-block; padding-left:150px;}
+.notice .sub-notice h2 {font-size:45px;  padding:20px 40px; float:left; text-align:center; }
+.notice .sub-notice .color a {color:#6dacb8; font-weight:bold}
+
+
+
+ /*page-number css*/
+.page-number {width:1200px; margin:0 auto; background:#fff; text-align:center; line-height:10px; font-size:14px; padding:70px 0; }
+.page-number .icon {color:#6dacb8; }
+.page-number .more , .page-number .icon {border:none;}
+.page-number a {border:1px solid #999; padding:2px 5px; margin:5px;}
+.page-number .on {background-color:#6dacb8; color:#fff;}
+.page-number .btn-write {width:80px; height:30px; background-color:#fff; float:right; background-color: #6dacb8; margin-right:50px; font-size:15px; line-height:25px; color:#fff; border:none;}
+ 
+
+ 
+
+ 
+
+
+

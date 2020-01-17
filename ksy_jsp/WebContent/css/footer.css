@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+ /* footer css */
+ 
+#footer {margin:0 auto; width:1200px; height:100px; clear:both; font-family:Nanum Barun Gothic; overflow:hidden; margin-bottom:20px; background: #fff; position:absolute; }
+#footer .footer-text {margin:0 auto; width:1170px; height:90px; border-top:1px solid #d1d1d1; padding-top:30px;}
+#footer .footer-text .sub-logo li {float:left; font-size:20px; font-weight:bold; color:#222222;}
+#footer .footer-text .sub-logo li a:hover {color:#76b7c0; transition:all 0.3s;}
+#footer .footer-text .copy li{ float:right; font-size:12px; color:#444444;}

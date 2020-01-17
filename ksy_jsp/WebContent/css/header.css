@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*header css*/
+
+#big-box {padding-top:20px;}
+#big-box .nav {width:1200px; margin:0 auto; height:180px; background-color:#fff; overflow:hidden; }
+#big-box .nav-menu li { font-family: 'Titillium Web'; padding:50px 20px 50px 20px; float:left;  font-size:15px; font-weight:600; letter-spacing:0.5px;}
+#big-box .nav-menu li a:hover {color:#76b7c0; transition:all 0.3s; }
+#big-box .nav .logo {float:left; width:340px; padding-top:20px; }
+#big-box .nav .logo .el-logo {padding-left:30px; text-align:center;}
+#big-box .side-bar {width:400px; float:right; padding:0px 15px 50px 0px;}
+.side-menu li {float:right; width:34px; height:34px; border-radius:100px; background:#87cedc; text-align:center; line-height:34px; margin-left:4px;}
+.side-menu li a {color:#fff; font-size:14px; padding:5px;}
+.side-text li {float:right; font-size:11px; color:#999; font-weight:bold; margin: 7px 10px 0px 0px;}
+
+.faq-box {width:1200px; margin:0 auto; margin:40px 0;}
+.faq-box .accordion {font-family:Nanum Barun Gothic; background-color:#E3CEF6; border:none; width:90%; margin:0 auto; display:block; font-size:16px; padding:18px; color:#444444; text-align:left; cursor:pointer; transition:all 0.5s; }
+.faq-box .active , .accordion:hover {background-color:#BE81F7;}
+.faq-box .accordion:after {content:"\02795"; /*unicode + 문자*/ font-size:13px; color:#777; float:right; margin-left:5px;}
+.faq-box .text{font-family:Nanum Barun Gothic;  background-color:#F5EFFB; font-size:16px; padding:18px; width:90%; margin:0 auto; text-align:center; border:1px solid #E3CEF6; color:#444444; text-align:left; display:none;}
+.faq-box .active:after {content:"\2796"; /* unicode - 문자 */}
